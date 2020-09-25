@@ -1,0 +1,41 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Muli-Light"; src: url("../fonts/Muli-Light.ttf"); }
+@font-face { font-family: "Muli-SemiBold"; src: url("../fonts/Muli-SemiBold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+h1,
+p { margin: 0; padding: 0; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+body { background-color: #000000; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Banner Section Starts -------*/
+
+.bg-banner { background-color: #e91e63; clip-path: circle(1100px at center center); height: 100vh; left: 0; position: fixed; top: 0; width: 100%; z-index: -1; }
+.banner-video { height: 100%; left: 0; object-fit: cover; position: absolute; top: 0; width: 100%; }
+
+/*------- Banner Section Ends -------*/
+
+/*------- Wrapper Section Starts -------*/
+
+.wrapper { background-color: #000000; margin-top: 200vh; }
+
+/*------- Wrapper Section Ends -------*/
+
+/*------- First Section Starts -------*/
+
+.bg-first-sec { padding: 100px 15px; }
+.section-heading > h1 { color: #ffffff; font: 3.6rem/1.4 "Muli-SemiBold"; margin-bottom: 30px; }
+.section-heading > p { color: #ffffff; font: 1.8rem/1.7 "Muli-Light"; margin-bottom: 30px; }
+.section-heading > p:last-child { margin-bottom: 0; }
+
+/*------- First Section Ends -------*/
